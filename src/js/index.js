@@ -1,19 +1,35 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
 import SimpleLightbox from 'simplelightbox';
+
 import 'simplelightbox/dist/simple-lightbox.min.css';
+
 import { SearchService } from './SearchService';
+
 import axios from 'axios';
+
 const elements = {
+
     form: document.querySelector('.search-form'),
+
     cardList: document.querySelector('.gallery'),
+
     btnLoadMore: document.querySelector('.load-more-hidden'),
+
 };
+
 const gallery = new SimpleLightbox('.gallery a');
+
 let quantityImg = 0;
+
 let currentPage = 1;
+
 elements.form.addEventListener('submit', handlSubmit);
+
 elements.cardList.addEventListener('click', markupCardList);
+
 elements.btnLoadMore.addEventListener('click', loadMoreBotton);
+
 async function handlSubmit(evt) {
     evt.preventDefault();
     elements.cardList.innerHTML = '';
