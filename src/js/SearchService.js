@@ -1,7 +1,6 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 export { SearchService, Notify };
-import axios from 'axios';
-
+import axios from "axios";
 const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = '40630400-52ca2fa072115e17b4bb97016';
 
@@ -9,7 +8,7 @@ async function SearchService(currentPage, searchQuery) {
     const parameters = new URLSearchParams({
         key: API_KEY,
         image_type: `photo`,
-        orientation: `horizontal`, 
+        orientation: `horizontal`,
         safesearch: `true`,
         per_page: '40',
         q: searchQuery,
