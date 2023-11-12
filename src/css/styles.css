@@ -30,7 +30,7 @@ button {
   margin: 20px auto;
   padding: 10px 20px;
   border: none;
-  background-color: #4caf50;
+  background-color: blue;
   color: white;
   border-radius: 5px;
   cursor: pointer;
@@ -38,7 +38,7 @@ button {
 }
 
 button:hover {
-  background-color: #45a049;
+  background-color: red;
 }
 
 .info-likes {
@@ -54,7 +54,7 @@ button:hover {
 }
 
 .info-downloads {
-  color: #72c472;
+  color: blue;
 }
 
 .gallery {
@@ -110,9 +110,9 @@ button:hover {
 
 .search-form button {
   padding: 10px 20px;
-  background-color: #4caf50;
+  background-color: blue;
   color: white;
-  border: 1px solid #4caf50;
+  border: 1px solid blue;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   transition: background-color 1500ms;
