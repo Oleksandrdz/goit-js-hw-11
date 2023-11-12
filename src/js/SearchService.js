@@ -3,7 +3,7 @@ export { SearchService, Notify };
 import axios from 'axios';
 
 const BASE_URL = 'https://pixabay.com/api/';
-const API_KEY = '40248939-f712c7f983066a304da5b3485';
+const API_KEY = '40630400-52ca2fa072115e17b4bb97016';
 
 async function SearchService(currentPage, searchQuery) {
     const parameters = new URLSearchParams({
