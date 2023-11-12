@@ -9,7 +9,7 @@ async function SearchService(currentPage, searchQuery) {
     const parameters = new URLSearchParams({
         key: API_KEY,
         image_type: `photo`,
-        orientation: `horizontal`,
+        orientation: `horizontal`, 
         safesearch: `true`,
         per_page: '40',
         q: searchQuery,
