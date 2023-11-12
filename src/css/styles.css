@@ -1,6 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #ff758c, #ec4646, #846bff, #2e9de4);
+  background-image: linear-gradient(
+    to right,
+    #157cc7,
+    #157cc7 50%,
+    #ff0 50%,
+    #ff0
+  );
   animation: gradient 5s ease infinite;
 }
 @keyframes gradient {
