@@ -103,23 +103,23 @@ function cardListMarkup(arr) {
                 downloads,
             }) => {
                 return `<div class ="photo-card"> 
-       <a class="gallery-link" href="${largeImageURL}"> 
-       <img src="${webformatURL}" alt="${tags}" loading="lazy" />
-       <div class="info">
-       <p class="info-likes">
-         <b>Likes: <span class= "item-text">${likes} ❤️ </span></b>
-       </p>
-       <p class="info-views">
-         <b>Views: <span class= "item-text">${views} 👀 </span></b>
-       </p>
-       <p class="info-comments">
-         <b>Comments: <span class= "item-text">${comments} 💬 </span></b>
-       </p>
-       <p class="info-downloads">
-         <b>Downloads: <span class= "item-text">${downloads} ⬆️ </span></b>
-       </p>
-     </div>
-       </a>
+    <a class="gallery-link" href="${largeImageURL}"> 
+    <img src="${webformatURL}" alt="${tags}" loading="lazy" />
+    <div class="info">
+    <p class="info-likes">
+        <b>Likes: <span class= "item-text">${likes} ❤️ </span></b>
+    </p>
+    <p class="info-views">
+        <b>Views: <span class= "item-text">${views} 👀 </span></b>
+    </p>
+    <p class="info-comments">
+        <b>Comments: <span class= "item-text">${comments} 💬 </span></b>
+    </p>
+    <p class="info-downloads">
+        <b>Downloads: <span class= "item-text">${downloads} ⬆️ </span></b>
+    </p>
+    </div>
+    </a>
     </div>`;
             }
         )
